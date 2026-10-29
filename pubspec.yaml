@@ -1,0 +1,23 @@
+name: week10b_starter
+description: "IGME-340 Week 10B: Provider from scratch, the Wizard Directory"
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Both already installed, so there's no `flutter pub add` today.
+  # http fetches the characters; provider shares them with the whole app.
+  http: ">=1.2.0 <2.0.0"
+  provider: ">=6.0.0 <7.0.0"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ">=4.0.0 <7.0.0"
+
+flutter:
+  uses-material-design: true
